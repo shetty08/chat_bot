@@ -1,0 +1,13 @@
+prefix=G:/CHAT__BOT/venv/Library
+exec_prefix=G:/CHAT__BOT/venv/Library
+libdir=G:/CHAT__BOT/venv/Library/lib
+sharedlibdir=G:/CHAT__BOT/venv/Library/lib
+includedir=G:/CHAT__BOT/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
